@@ -7,3 +7,28 @@ html {
   font-family: Poppins, 'Open Sans', Helvetica, Arial, sans-serif;
   font-size: 14px;
 }
+
+.legend {
+  position: absolute;
+  bottom: 105px;
+  right: 30px;
+  display: flex;
+  width: 50px;
+  padding: 0.5rem 1rem;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 5px;
+}
+
+.legend label {
+  order: 1;
+  width: 150px;
+  text-align: left;
+}
+
+.legendItemLate span {
+  background-color: #f28e2b;
+}
+
+.legendItemOnTime span {
+  background-color: #4e79a7;
+}
